@@ -1,0 +1,331 @@
+<html><head>
+    <title>Register Vehicle</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="icon" href="images/icons8-sedan-24.png">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: darkgreen;">
+        <div class="container">
+          <a href="index.html"><img src="logo.png"; width="150"  style="margin-left: 10px; padding-right: 20px;"></a>
+          <a class="navbar-brand" href="index.html">JamCheck</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="RegisterCar.html">Register Vehicle</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="SearchCatalogue.html">Search Catalogue</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AboutUs.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="faqs.html">FAQs</a>
+              </li> <li class="nav-item">
+                <a class="nav-link" href="RegisterCar.html">Register Vehicle</a>
+              </li>
+              <li class="nav-item" id="signup">
+                <a class="nav-link" href="signup.html" target="_blank">Sign Up</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="Loginin.html" target="_blank">Login in</a>
+              </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav> <br>
+      <div >
+ <!-- FORM -->
+ <div class="container bootstrap snipets">
+    <div id="content" class="container">
+ 
+        <h1 style="color: green;">Register Vehicle</h1> <hr> <br>
+        <form action="success.html" method="get">
+        <div class="mb-3">
+        <label for="make" class="form-label">Make</label>
+        <input type="text" class="form-control" id="make" name="make" placeholder="Make">
+        </div>
+        
+        <br>
+        
+        <div class="mb-3">
+        <label for="Model" class="form-label">Model</label>
+        <input type="text" class="form-control" id="model" name="model" placeholder="Model">
+         </div> 
+        
+        <br>
+        <div class="mb-3">
+            <label for="year" class="form-label">Year</label>
+            <input type="text" class="form-control" id="year" name="year" placeholder="Year">
+             </div> 
+            
+            <br>
+        
+        
+        <label> Gender of Previous Owner</label>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="gender" id="genderMale" value="Male">
+        <label class="form-check-label" for="genderMale">Male Owned</label>
+        </div>
+        
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="Female">
+        <label class="form-check-label" for="genderFemale">Female Owned</label>
+        </div>
+        
+        <br>
+        
+         <br>
+        
+       <div class="mb-3">
+        <label for="Chassis number" class="form-label">Chassis Number</label>
+        <input type="Chassis number" class="form-control" id="Chassis Number" name="Chassis Number" placeholder="Enter Chassis Number">
+        </div>
+        
+       <br><div class="mb-3">
+        <label for="Engine number" class="form-label">Engine Number</label>
+        <input type="Engine number" class="form-control" id="Engine Number" name="Engine Number" placeholder="Enter Engine Number">
+        </div>
+        
+        <br><div class="mb-3">
+            <label for="ccrating" class="form-label">CC Rating</label>
+            <input type="ccrating" class="form-control" id="ccrating" name="ccrating" placeholder="Enter CC Rating">
+            </div>
+            <br>
+            <div class="mb-3">
+                <label for="Model number" class="form-label">Model Number</label>
+                <input type="Model number" class="form-control" id="Model number" name="Model number" placeholder="Enter Model Number">
+                </div>
+        <br>
+        <label for="seating" class="form-label">Seating Capacity </label>
+        <select class="form-select" name="seating" id="seating">
+        <option>Select an option</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="Other">other</option>
+         </select>
+         
+         <br>
+         <label for="fuel" class="form-label">Fuel Type</label>
+         <select class="form-select" name="fuel" id="fuel">
+         <option>Select an option</option>
+         <option value="87">87</option>
+         <option value="90">90</option>
+         <option value="ULSD">ULSD</option>
+         <option value="Diesel">Diesel</option>
+         </select>
+         
+         <br>
+         <label for="import" class="import">Imported From</label>
+         <select class="form-select" name="fuel" id="fuel">
+         <option>Select an option</option>
+         <option value="Japan">Japan</option>
+         <option value="United States of America">United States of America</option>
+         <option value="United Kingdom">United Kingdom</option>
+         <option value="Singapore">Singapore</option>
+         </select>
+         
+         <br>
+         <label for="transmission" class="transmission">Transmission Type</label>
+         <select class="form-select" name="transmission" id="transmission">
+         <option>Select an option</option>
+         <option value="CVT">CVT</option>
+         <option value="Automatic">United States of America</option>
+         <option value="Manual">Manual</option>
+         </select>
+        
+       <br><div class="mb-3">
+        <label for="Mileage" class="form-label">Mileage</label>
+        <input type="Milaage" class="form-control" id="Mileage" name="Mileage" placeholder="Enter Mileage">
+        </div>
+        <br>
+       
+               
+         <label for="steerpos" class="form-label">Steering Position</label>
+         <select class="form-select" name="steerpos" id="steerpos">
+         <option>Select an option</option>
+         <option value="Right Hand">Right Hand</option>
+         <option value="Left Hand">Left Hand</option>
+         </select>
+        <br>
+
+        <label>Drive Train</label>
+         <div class="form-check form-check-inline">
+         <input class="form-check-input" type="radio" name="Drive Train" id="2WD" value="2WD">
+         <label class="form-check-label" for="Drive Train">2WD</label>
+         </div>
+         
+         <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="Drive Train" id="4WD" value="4WD">
+            <label class="form-check-label" for="Drive Train">4WD</label>
+         </div>
+         <br>
+         <br>
+       
+         <div class="mb-3">
+         <label for="colour" class="form-label">Colour</label>
+         <input type="colour" class="form-control" id="colour" name="colour" placeholder="Enter Colour">
+         </div>
+        
+         <br>
+        
+        <label for="reason" class="form-label">Reason for Sale</label>
+        <select class="form-select" name="Reason" id="Reason">
+        <option>Select Reason</option>
+        <option value="upgrading">Upgrading</option>
+        <option value="meet in accident">Meet in accident</option>
+        <option value="need the money">Need the money</option>
+        <option value="Other">Other</option>
+        </select> 
+        
+        <br>
+       
+       <label>Accident History</label>
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="Accident History" id="AccidentYes" value="YES">
+        <label class="form-check-label" for="AccidentYes">YES</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="Accident History" id="AccidentNo" value="NO">
+        <label class="form-check-label" for="AccidentNo">NO</label>
+        </div>
+        <br>
+        
+        <label for="description" class="form-label">Describe the damages if applicable</label> <br>
+        <textarea cols="30" rows="3" class="form-control" id="description" name="description"></textarea>
+        
+        <br>
+        <label for="remarks" class="form-label">Any Other Remarks</label> <br>
+        <textarea cols="30" rows="3" class="form-control" id="remarks" name="Remarks"></textarea> <br><br>
+        
+        <div class="d-grid gap-2">
+          <a href="success.html"> <button type="button" class="btn btn-success">Register Vehicle</button></a>
+                   </div>
+        </form>
+  
+        </div>
+      </div>
+         <!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted;" >
+    <!-- Section: Social media -->
+    
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 style="color: rgb(20, 202, 20);"class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>JamCheck
+            </h6>
+            <p>
+              Giving our customers more knowledge so that they can make an informed decsion when buying their used car
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 style="color: rgb(20, 202, 20);" class="text-uppercase fw-bold mb-4" >
+              Services
+            </h6>
+            <p>
+              <a href="AboutUs.html" class="text-reset" >About Us</a>
+            </p>
+            <p>
+              <a href="contact.html"  class="text-reset">Contact Us</a>
+            </p>
+            <p>
+              <a href="faqs.html" class="text-reset">FAQs</a>
+            </p>
+            <p>
+              <a href="SearchCatalogue.html" class="text-reset">Car Search</a>
+            </p>
+            <p>
+                <a href="RegisterCar.html" class="text-reset">Register Vehicle</a>
+              </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 style="color: rgb(20, 202, 20);" class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="https://mtm.gov.jm/" class="text-reset">Ministry of Transport and Mining</a>
+            </p>
+            <p>
+              <a href="https://www.jacustoms.gov.jm/" class="text-reset">Jamaica Customs Agency</a>
+            </p>
+            <p>
+              <a href="https://www.ta.org.jm/" class="text-reset">Transport Authority</a>
+            </p>
+            
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 style="color: rgb(20, 202, 20);"class="text-uppercase fw-bold mb-4">
+              Contact
+            </h6>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3794.8926609726745!2d-76.82227223352523!3d17.9837302379681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8edb3ffb896bfcc7%3A0x39710dff3e391b6b!2s132%20Marcus%20Garvey%20Dr%2C%20Kingston!5e0!3m2!1sen!2sjm!4v1649626959797!5m2!1sen!2sjm" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           <br>
+           <br>
+            <p><i class="fa fa-map-pin" aria-hidden="true"></i> 132 Marcus Garvey Drive, Kingston 13</p>
+            <p>
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              info@JamCheck.com
+            </p>
+            <p><i  class="fa fa-phone" aria-hidden="true"></i> (876) 972-56738</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(7, 7, 7, 0.05);">
+      © 2022 Copyright:
+      <a class="text-reset fw-bold" href="https://JamCheck.com/">JamCheck.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+       
+  </body></html>
+  
+  
+  
