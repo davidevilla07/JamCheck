@@ -15,4 +15,4 @@ Group Members:
 David Samuels, 
 Fiona Martin-Clarke,
 Darwin Dallas,
-Maurice Thomspon,
+Maurice Thompson,
